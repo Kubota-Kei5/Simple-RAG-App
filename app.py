@@ -1,4 +1,6 @@
 import os
+os.environ["CHROMADB_FORCE_PYSQLITE3"] = "1"
+
 import chromadb
 import streamlit as st
 from dotenv import load_dotenv
