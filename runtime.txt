@@ -1,1 +1,4 @@
 python-3.9.16
+chromadb==0.3.26       # バージョンは適宜
+pysqlite3-binary>=0.5  # 重要: 0.5.x 以上を推奨
+streamlit
